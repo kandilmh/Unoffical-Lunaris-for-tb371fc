@@ -121,10 +121,8 @@ different keys and cannot be used as updates for this release.
 
 ## 한국어
 
-Lenovo 샤오신 패드 프로 12.7(TB371FC, 스냅드래곤 870)용 Lunaris AOSP 3.12(안드로이드 16, 구글 앱
-포함) 비공식 포트입니다. 공식 Lunaris vili 빌드의 시스템 이미지를 가져와 ZUI_16.0.474 순정
-vendor 위에서 구동합니다. Lenovo 펜, 스피커 4개, Dolby Atmos, 충전 모드/배터리 보호, 메모리 확장,
-태블릿 레이아웃 모두 동작합니다.
+TB371fc용 롬이며 대부분의 기능들은 정상작동 합니다.
+혹시 안되거나 하는거 있으면 알려주세요.
 
 개인 빌드이며 Lenovo, Lunaris 팀과는 무관합니다.
 
@@ -136,6 +134,7 @@ vendor 위에서 구동합니다. Lenovo 펜, 스피커 4개, Dolby Atmos, 충�
 - **DRM은 Widevine L3로 내려갑니다.** 언락된 기기에는 L1이 적용되지 않아 넷플릭스 등은 SD
   화질로 재생되며, 실행되지 않는 앱도 있습니다.
 - 클린 설치 시 데이터가 모두 삭제되니 미리 백업하세요.
+- 언락이 필요한 사람은 https://github.com/MlgmXyysd/lenovoubl 툴로 SN파일 만들고 언락법 검색해서 하시면 금방합니다.
 
 ### 릴리스 파일
 
