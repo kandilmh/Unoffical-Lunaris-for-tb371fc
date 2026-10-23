@@ -1,1 +1,32 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-2.0-to-2.0.1.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v2.0.1/lunaris-tb371fc-2.0-to-2.0.1.zip",
+   "timestamp": 1792746491,
+   "sha256": "b0d12e4caaeaa5258a7eb997c0d43095c52ce7678a0c04b84f17e550917d4a94",
+   "size": 18849578,
+   "version": "2.0.1",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-09-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "QC 3.0 chargers no longer drop out at around 20 W: the charge current is capped at 3.0 A on QC 3.0 and lowered step by step if the charger still drops, at 9 V.",
+     "The lockscreen charging line shows the measured current, voltage and power going into the battery instead of the charger's limits.",
+     "A pen disconnected in Bluetooth settings stays disconnected until it touches the screen.",
+     "Known limitation: after a reboot or the 10-minute idle disconnect, the pen may not reconnect by touching the screen. Press the pen button once to reconnect."
+    ],
+    "ko": [
+     "QC 3.0 \ucda9\uc804\uae30\uc5d0\uc11c 20 W \ubd80\uadfc \ucda9\uc804\uc774 \ub04a\uae30\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4. QC 3.0\uc5d0\uc11c\ub294 \ucda9\uc804 \uc804\ub958\ub97c 3.0 A\ub85c \uc81c\ud55c\ud558\uace0, \uadf8\ub798\ub3c4 \ub04a\uae30\uba74 \ub2e8\uacc4\uc801\uc73c\ub85c \ub0ae\ucda5\ub2c8\ub2e4(9 V \uc720\uc9c0).",
+     "\uc7a0\uae08 \ud654\uba74 \ucda9\uc804 \uc815\ubcf4\uc5d0 \ucda9\uc804\uae30 \ucd5c\ub300\uac12 \ub300\uc2e0 \uc2e4\uc81c \ubc30\ud130\ub9ac\ub85c \ub4e4\uc5b4\uac00\ub294 \uc804\ub958, \uc804\uc555, \uc804\ub825\uc744 \ud45c\uc2dc\ud569\ub2c8\ub2e4.",
+     "\ube14\ub8e8\ud22c\uc2a4 \uc124\uc815\uc5d0\uc11c \uc5f0\uacb0\uc744 \ud574\uc81c\ud55c \ud39c\uc740 \ud39c \ub05d\uc73c\ub85c \ud654\uba74\uc744 \ud130\uce58\ud560 \ub54c\uae4c\uc9c0 \ub2e4\uc2dc \uc5f0\uacb0\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.",
+     "\uc54c\ub824\uc9c4 \uc81c\ud55c: \uc7ac\ubd80\ud305 \ud6c4 \ub610\ub294 10\ubd84 \ubbf8\uc0ac\uc6a9\uc73c\ub85c \uc5f0\uacb0\uc774 \ud574\uc81c\ub41c \ub4a4\uc5d0\ub294 \ud654\uba74 \ud130\uce58\ub9cc\uc73c\ub85c \ub2e4\uc2dc \uc5f0\uacb0\ub418\uc9c0 \uc54a\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \uacbd\uc6b0 \ud39c \ubc84\ud2bc\uc744 \ud55c \ubc88 \ub204\ub974\uba74 \uc5f0\uacb0\ub429\ub2c8\ub2e4."
+    ]
+   }
+  }
+ ]
+}
