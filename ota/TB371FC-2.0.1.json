@@ -1,1 +1,28 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-2.0.1-to-2.0.2.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v2.0.2/lunaris-tb371fc-2.0.1-to-2.0.2.zip",
+   "timestamp": 1792749094,
+   "sha256": "b3694695d32222ca3eebbb3d49630186985e22f697e3787bf403c56efa877bc1",
+   "size": 582152,
+   "version": "2.0.2",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-09-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Pen battery may now show in the status bar after the pen reconnects: the pen's own data connection starts 3 seconds after the pen connects, so it no longer collides with the system battery reading.",
+     "Known limitation: this fix is not verified yet. If the status bar still shows no pen battery, the cause is logged for the next update."
+    ],
+    "ko": [
+     "\ud39c\uc774 \ub2e4\uc2dc \uc5f0\uacb0\ub41c \ub4a4 \uc0c1\ud0dc\ubc14\uc5d0 \ud39c \ubc30\ud130\ub9ac\uac00 \ud45c\uc2dc\ub418\uc9c0 \uc54a\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4. \ud39c \ub370\uc774\ud130 \uc5f0\uacb0\uc744 3\ucd08 \ub2a6\uac8c \uc2dc\uc791\ud574 \uc2dc\uc2a4\ud15c \ubc30\ud130\ub9ac \ud655\uc778\uacfc \uacb9\uce58\uc9c0 \uc54a\uac8c \ud588\uc2b5\ub2c8\ub2e4.",
+     "\uc54c\ub824\uc9c4 \uc81c\ud55c: \uc774 \uc218\uc815\uc740 \uc544\uc9c1 \uac80\uc99d\ub418\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4. \uadf8\ub798\ub3c4 \ubc30\ud130\ub9ac\uac00 \ud45c\uc2dc\ub418\uc9c0 \uc54a\uc73c\uba74 \uc6d0\uc778\uc744 \ub85c\uadf8\ub85c \ub0a8\uaca8 \ub2e4\uc74c \uc5c5\ub370\uc774\ud2b8\uc5d0 \ubc18\uc601\ud569\ub2c8\ub2e4."
+    ]
+   }
+  }
+ ]
+}
