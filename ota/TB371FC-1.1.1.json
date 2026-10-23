@@ -1,1 +1,32 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-1.1.1-to-1.2.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v1.2/lunaris-tb371fc-1.1.1-to-1.2.zip",
+   "timestamp": 1792715211,
+   "sha256": "a8b1989342f295855f495b1c3b17939b68339c8775f2e9cb258e208eda9aa57b",
+   "size": 25775902,
+   "version": "1.2",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-09-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Windows in desktop mode use iPadOS-style controls: three small dots at the top expand into close, minimize and maximize. The rest of the top edge moves the window.",
+     "The system update screen is wider on the tablet.",
+     "The options of the screen record dialog are laid out correctly.",
+     "The home search bar no longer jumps when returning home with the back button."
+    ],
+    "ko": [
+     "\ub370\uc2a4\ud06c\ud1b1 \ubaa8\ub4dc \ucc3d\uc744 iPadOS \ubc29\uc2dd\uc73c\ub85c \ubc14\uafe8\uc2b5\ub2c8\ub2e4. \uc0c1\ub2e8\uc758 \uc810 3\uac1c\ub97c \ub204\ub974\uba74 \ub2eb\uae30, \ucd5c\uc18c\ud654, \ucd5c\ub300\ud654 \ubc84\ud2bc\uc774 \ud3bc\uccd0\uc9c0\uace0, \ub098\uba38\uc9c0 \uc0c1\ub2e8 \uc601\uc5ed\uc73c\ub85c \ucc3d\uc744 \uc62e\uae38 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+     "\uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8 \ud654\uba74\uc744 \ud0dc\ube14\ub9bf\uc5d0 \ub9de\uac8c \ub113\ud614\uc2b5\ub2c8\ub2e4.",
+     "\ud654\uba74 \ub179\ud654 \ucc3d\uc758 \uc138\ubd80 \ud56d\ubaa9 \ubc30\uce58\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4.",
+     "\ub4a4\ub85c \uac00\uae30\ub85c \ud648 \ud654\uba74\uc5d0 \ub3cc\uc544\uc62c \ub54c \ud558\ub2e8 \uac80\uc0c9\ubc14\uac00 \ud280\ub294 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4."
+    ]
+   }
+  }
+ ]
+}
