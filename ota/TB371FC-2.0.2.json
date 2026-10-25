@@ -1,1 +1,30 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-2.0.2-to-2.1.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v2.1/lunaris-tb371fc-2.0.2-to-2.1.zip",
+   "timestamp": 1792928330,
+   "sha256": "570379d0aebebafdd8adae8fc1cbf53f265fcf6c947a48381772890dd36aca88",
+   "size": 18828594,
+   "version": "2.1",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-09-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Bubbles: opening another notification of an app whose bubble is already open now shows that notification in the bubble, instead of the first one again.",
+     "Pen power saving now follows the stock protocol: the pen is told to sleep / wake with the screen, and reconnects after screen on without pressing the pen button.",
+     "Known limitation: some apps (such as X) opening as a bubble and a normal window at once could not be reproduced and is not addressed yet."
+    ],
+    "ko": [
+     "\uac19\uc740 \uc571\uc758 \uc54c\ub9bc\uc744 \ud48d\uc120\uc73c\ub85c \uc5f0 \ub4a4 \ub2e4\ub978 \uc54c\ub9bc\uc744 \ub20c\ub7ec\ub3c4 \ucc98\uc74c \uc5f0 \uae00\ub9cc \ubcf4\uc774\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4. \uc0c8 \uc54c\ub9bc\uc740 \uc5f4\ub824 \uc788\ub294 \ud48d\uc120 \uc548\uc5d0\uc11c \ud574\ub2f9 \ub0b4\uc6a9\uc73c\ub85c \ubc14\ub01d\ub2c8\ub2e4.",
+     "\ud39c \uc808\uc804\uc744 \uc21c\uc815 \ubc29\uc2dd\uc73c\ub85c \ubc14\uafe8\uc2b5\ub2c8\ub2e4. \ud654\uba74\uc744 \ub044\uace0 \ucf24 \ub54c \ud39c\uc5d0 \uc808\uc804/\ubcf5\uadc0 \uc2e0\ud638\ub97c \ubcf4\ub0b4\uba70, \ud654\uba74\uc744 \ub2e4\uc2dc \ucf1c\uba74 \ud39c \ubc84\ud2bc \uc5c6\uc774 \ub2e4\uc2dc \uc5f0\uacb0\ub429\ub2c8\ub2e4.",
+     "\uc54c\ub824\uc9c4 \uc81c\ud55c: X \ub4f1 \uc77c\ubd80 \uc571\uc5d0\uc11c \ud48d\uc120\uacfc \uc77c\ubc18 \ucc3d\uc774 \ub3d9\uc2dc\uc5d0 \uc5f4\ub9ac\ub294 \ud604\uc0c1\uc740 \uc7ac\ud604\ub418\uc9c0 \uc54a\uc544 \uc774\ubc88\uc5d0 \ud3ec\ud568\ub418\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4."
+    ]
+   }
+  }
+ ]
+}
