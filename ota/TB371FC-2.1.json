@@ -1,1 +1,28 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-2.1-to-2.1.1.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v2.1.1/lunaris-tb371fc-2.1-to-2.1.1.zip",
+   "timestamp": 1793142703,
+   "sha256": "b634376b4c8e8e2e13400fa7f7a55df1d7666310de4b865b2d44e29cc0973f5c",
+   "size": 581912,
+   "version": "2.1.1",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-09-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Every screen off into AOD now powers the panel off for a moment (about 0.8 s) first, which resets the touch IC. This prevents finger and pen input from stopping after plugging or unplugging the charger.",
+     "Set Settings.Global tb371fc_aod_entry_reset to 0 to turn it off."
+    ],
+    "ko": [
+     "\ud654\uba74\uc744 \ub04c \ub54c\ub9c8\ub2e4 AOD\ub85c \ub118\uc5b4\uac00\uae30 \uc804\uc5d0 \ud328\ub110\uc744 \uc7a0\uae50(\uc57d 0.8\ucd08) \uaebc\uc11c \ud130\uce58 IC\ub97c \ucd08\uae30\ud654\ud569\ub2c8\ub2e4. \ucda9\uc804\uae30 \uc5f0\uacb0/\ud574\uc81c \ub4a4 \uc190\uac00\ub77d\uacfc \ud39c \uc785\ub825\uc774 \uba48\ucd94\ub358 \ud604\uc0c1\uc744 \ub9c9\uc2b5\ub2c8\ub2e4.",
+     "Settings.Global tb371fc_aod_entry_reset\uc744 0\uc73c\ub85c \ub450\uba74 \ub04c \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+    ]
+   }
+  }
+ ]
+}
