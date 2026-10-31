@@ -1,1 +1,30 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-2.2-to-2.2.1.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v2.2.1/lunaris-tb371fc-2.2-to-2.2.1.zip",
+   "timestamp": 1793425755,
+   "sha256": "12b68814d07fd8d9593097e4e37d746148c727df114d6573a21557a65aa3ae26",
+   "size": 139291910,
+   "version": "2.2.1",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-09-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Fixed Settings closing when the custom clock edit page is opened.",
+     "The AOD low-battery cutoff moved to Settings > Display > Always on display.",
+     "Fixed finger touch stopping after turning on pen free write. Free write needs the ZUI handwriting service missing on Android 16, so the option is removed; Android stylus handwriting works instead."
+    ],
+    "ko": [
+     "\uc0ac\uc6a9\uc790 \uc9c0\uc815 \uc2dc\uacc4 \ud3b8\uc9d1 \ud654\uba74\uc5d0 \ub4e4\uc5b4\uac00\uba74 \uc124\uc815\uc774 \uaebc\uc9c0\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4.",
+     "\ubc30\ud130\ub9ac \ubd80\uc871 \uc2dc AOD \ub044\uae30 \uc124\uc815\uc744 \uc124\uc815 > \ub514\uc2a4\ud50c\ub808\uc774 > \ud654\uba74 \ud56d\uc0c1 \ucf1c\uae30\ub85c \uc62e\uacbc\uc2b5\ub2c8\ub2e4.",
+     "\ud39c \uc790\uc720 \ud544\uae30\ub97c \ucf1c\uba74 \uc190\uac00\ub77d \ud130\uce58\uac00 \uba39\ud788\uc9c0 \uc54a\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4. \uc790\uc720 \ud544\uae30\ub294 Android 16\uc5d0 \uc5c6\ub294 ZUI \ud544\uae30 \uc11c\ube44\uc2a4\uac00 \ud544\uc694\ud574 \ud56d\ubaa9\uc744 \uc5c6\uc574\uc2b5\ub2c8\ub2e4. Android \uae30\ubcf8 \uc2a4\ud0c0\uc77c\ub7ec\uc2a4 \ud544\uae30\ub97c \uc4f0\uba74 \ub429\ub2c8\ub2e4."
+    ]
+   }
+  }
+ ]
+}
