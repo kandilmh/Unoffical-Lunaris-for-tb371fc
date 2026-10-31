@@ -1,1 +1,32 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-2.2.1-to-2.2.2.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v2.2.2/lunaris-tb371fc-2.2.1-to-2.2.2.zip",
+   "timestamp": 1793436234,
+   "sha256": "61073f99e84cc0c9f86208afbfe7ef9c09da6c3ba2c0937190df16092950cb77",
+   "size": 581329,
+   "version": "2.2.2",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-09-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Patched kernel in the clean install and in the separate boot zip: touch now recovers by itself when the touch controller stops reporting, and plugging or unplugging the charger no longer resets the touch controller several times in a row.",
+     "Patched kernel: PD and QC3 charging follow the stock Lenovo kernel again (PD request, PPS 6 A / QC3 4.5 A limits, temperature steps), fixing PD chargers stuck at about 3 W.",
+     "Bypass charging and the charge limit now stay on after the battery cools down from a high-temperature charging stop.",
+     "This OTA updates the system only. To get the kernel fixes, flash boot.img and vbmeta.img from lunaris-2.2.2-boot-tb371fc.zip with fastboot."
+    ],
+    "ko": [
+     "\ud074\ub9b0 \uc124\uce58\uc640 \ubcc4\ub3c4 boot \uc555\ucd95 \ud30c\uc77c\uc5d0 \ud328\uce58 \ucee4\ub110\uc744 \ub123\uc5c8\uc2b5\ub2c8\ub2e4. \ud130\uce58 \ucee8\ud2b8\ub864\ub7ec\uac00 \uc751\ub2f5\uc744 \uba48\ucd94\uba74 \uc2a4\uc2a4\ub85c \ubcf5\uad6c\ud558\uace0, \ucda9\uc804\uae30\ub97c \uaf42\uac70\ub098 \ube84 \ub54c \ud130\uce58 \ucee8\ud2b8\ub864\ub7ec\ub97c \uc5ec\ub7ec \ubc88 \uc5f0\ub2ec\uc544 \ub9ac\uc14b\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.",
+     "\ud328\uce58 \ucee4\ub110: PD\u00b7QC3 \ucda9\uc804\uc744 \ub808\ub178\ubc84 \uc6d0\ubcf8 \ucee4\ub110 \ub3d9\uc791\uc73c\ub85c \ub418\ub3cc\ub838\uc2b5\ub2c8\ub2e4(PD \uc694\uccad, PPS 6 A\u00b7QC3 4.5 A \uc81c\ud55c, \uc628\ub3c4\ubcc4 \ub2e8\uacc4). PD \ucda9\uc804\uae30\uc5d0\uc11c \uc57d 3 W\ub9cc \ub4e4\uc5b4\uc624\ub358 \ubb38\uc81c\ub97c \uace0\ucce4\uc2b5\ub2c8\ub2e4.",
+     "\uace0\uc628\uc73c\ub85c \ucda9\uc804\uc774 \uba48\ucdc4\ub2e4\uac00 \ubc30\ud130\ub9ac\uac00 \uc2dd\uc740 \ub4a4\uc5d0\ub3c4 \ubc14\uc774\ud328\uc2a4 \ucda9\uc804\uacfc \ucda9\uc804 \uc81c\ud55c\uc774 \uc720\uc9c0\ub429\ub2c8\ub2e4.",
+     "\uc774 OTA\ub294 \uc2dc\uc2a4\ud15c\ub9cc \uc5c5\ub370\uc774\ud2b8\ud569\ub2c8\ub2e4. \ucee4\ub110 \uc218\uc815\uc744 \uc801\uc6a9\ud558\ub824\uba74 lunaris-2.2.2-boot-tb371fc.zip\uc758 boot.img\uc640 vbmeta.img\ub97c fastboot\ub85c \uc124\uce58\ud558\uc138\uc694."
+    ]
+   }
+  }
+ ]
+}
