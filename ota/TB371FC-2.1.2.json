@@ -1,1 +1,48 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-2.1.2-to-2.2.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v2.2/lunaris-tb371fc-2.1.2-to-2.2.zip",
+   "timestamp": 1793419931,
+   "sha256": "8cbc08d12559bedd22e78244857ada12fba581cab9d449abc0e8bb3d4eb25ccd",
+   "size": 262432006,
+   "version": "2.2",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-09-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Refresh rate switches between 60 and 120 Hz in use, like stock. 30 Hz is used only on AOD, and the 144 Hz option is gone.",
+     "The screen-off animation plays again.",
+     "A screen timeout into AOD locks at once, so the home wallpaper no longer flashes on AOD.",
+     "AOD turns off on battery below a chosen level (20-80 %, steps of 5).",
+     "On AOD at 0 lux with Extra dim on, brightness fades down over 10 s and stops at about 40 %.",
+     "Fixed an empty or frozen bubble when the same app's bubble is opened again.",
+     "Volume style changes apply without a SystemUI restart; the volume panel settings moved into the volume style page.",
+     "In desktop mode, apps that draw their own title bar (Chrome) get a transparent header, so tabs are no longer covered.",
+     "The custom clock preview matches the lock screen; in landscape the custom clock sits in the left column.",
+     "The pen hover effect on the status bar no longer stays after the pen leaves.",
+     "Fixed the video wallpaper showing only \"Failed to load video\" after boot or after switching from a GIF.",
+     "Pen settings rebuilt from the stock TB371FC PenService 1.3.6, with accidental-touch protection as one toggle. Pen connection and sleep rewritten the stock way."
+    ],
+    "ko": [
+     "\uc0ac\uc6a9 \uc911 \uc8fc\uc0ac\uc728\uc740 \uc6d0\ubcf8\ucc98\ub7fc 60-120 Hz \uc0ac\uc774\uc5d0\uc11c\ub9cc \ubc14\ub01d\ub2c8\ub2e4. 30 Hz\ub294 AOD\uc5d0\uc11c\ub9cc \uc4f0\uace0 144 Hz \uc120\ud0dd\uc9c0\ub294 \uc5c6\uc574\uc2b5\ub2c8\ub2e4.",
+     "\ud654\uba74 \uaebc\uc9d0 \uc560\ub2c8\uba54\uc774\uc158\uc774 \ub2e4\uc2dc \ub098\uc635\ub2c8\ub2e4.",
+     "\ud654\uba74 \uc2dc\uac04 \ucd08\uacfc\ub85c AOD\uc5d0 \ub4e4\uc5b4\uac00\uba74 \ubc14\ub85c \uc7a0\uae41\ub2c8\ub2e4. AOD\uc5d0 \ud648 \ubc30\uacbd\ud654\uba74\uc774 \uc7a0\uae50 \ubcf4\uc774\ub358 \ubb38\uc81c\uac00 \uc5c6\uc5b4\uc84c\uc2b5\ub2c8\ub2e4.",
+     "\ubc30\ud130\ub9ac \uc0ac\uc6a9 \uc911 \uc815\ud55c \uac12(20-80 %, 5 % \ub2e8\uc704) \uc544\ub798\ub85c \ub0b4\ub824\uac00\uba74 AOD\uac00 \uaebc\uc9d1\ub2c8\ub2e4.",
+     "AOD\uc5d0\uc11c 0 lux\uc774\uace0 Extra dim\uc774 \ucf1c\uc838 \uc788\uc73c\uba74 10\ucd08\uc5d0 \uac78\uccd0 \ubc1d\uae30\ub97c \ub0ae\ucdb0 \uc57d 40 %\uc5d0\uc11c \uba48\ucda5\ub2c8\ub2e4.",
+     "\uac19\uc740 \uc571\uc758 \ud48d\uc120\uc744 \ub2e4\uc2dc \uc5f4 \ub54c \ube48 \ud654\uba74\uc774 \ub728\uac70\ub098 \uba48\ucd94\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4.",
+     "\ubcfc\ub968 \uc2a4\ud0c0\uc77c \ubcc0\uacbd\uc774 SystemUI \uc7ac\uc2dc\uc791 \uc5c6\uc774 \uc801\uc6a9\ub429\ub2c8\ub2e4. \ubcfc\ub968 \ud328\ub110 \uc124\uc815\uc740 \ubcfc\ub968 \uc2a4\ud0c0\uc77c \ud398\uc774\uc9c0 \uc548\uc73c\ub85c \uc62e\uacbc\uc2b5\ub2c8\ub2e4.",
+     "\ub370\uc2a4\ud06c\ud0d1 \ubaa8\ub4dc\uc5d0\uc11c \uc81c\ubaa9 \ud45c\uc2dc\uc904\uc744 \uc9c1\uc811 \uadf8\ub9ac\ub294 \uc571(Chrome)\uc740 \uc0c1\ub2e8 \ubc14\uac00 \ud22c\uba85\ud574\uc838 \ud0ed\uc774 \uac00\ub824\uc9c0\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.",
+     "\uc0ac\uc6a9\uc790 \uc9c0\uc815 \uc2dc\uacc4 \ubbf8\ub9ac\ubcf4\uae30\uac00 \uc2e4\uc81c \uc7a0\uae08\ud654\uba74\uacfc \uac19\uc544\uc84c\uace0, \uac00\ub85c \ud654\uba74\uc5d0\uc11c\ub294 \uc67c\ucabd \uc5f4\uc5d0 \ub193\uc785\ub2c8\ub2e4.",
+     "\ud39c\uc744 \uc0c1\ub2e8\ubc14\uc5d0\uc11c \ub5bc\ub3c4 \ud638\ubc84 \ud6a8\uacfc\uac00 \ub0a8\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4.",
+     "\uc601\uc0c1 \ubc30\uacbd\ud654\uba74\uc774 \ubd80\ud305 \ud6c4\ub098 GIF\uc5d0\uc11c \ubc14\uafbc \ub4a4 \"Failed to load video\"\ub9cc \ub744\uc6b0\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4.",
+     "\ud39c \uc124\uc815\uc744 TB371FC \uc6d0\ubcf8 PenService 1.3.6\uc73c\ub85c \ub2e4\uc2dc \ub9cc\ub4e4\uc5c8\uace0 \uc624\ud130\uce58 \ubc29\uc9c0\ub294 \ud1a0\uae00 \ud558\ub098\ub85c \ub461\ub2c8\ub2e4. \ud39c \uc5f0\uacb0\uacfc \uc808\uc804\ub3c4 \uc6d0\ubcf8 \ubc29\uc2dd\uc73c\ub85c \uc0c8\ub85c \uc791\uc131\ud588\uc2b5\ub2c8\ub2e4."
+    ]
+   }
+  }
+ ]
+}
