@@ -1,1 +1,30 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-2.2.2-to-2.2.3.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v2.2.3/lunaris-tb371fc-2.2.2-to-2.2.3.zip",
+   "timestamp": 1793441419,
+   "sha256": "d83ecff6eeb58a10a17811ced9bcf757a7e6cc539dff8c715f1d243a96aa971c",
+   "size": 17208923,
+   "version": "2.2.3",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-09-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "QC3 (9 V) charging fixed: the charge pump temperature was read with the wrong ADC scale (about 136 \u00b0C), so the charger reported overheat and dropped to 3-4 W. On a QC3 adapter the battery now takes about 3.2 A (13 W) instead of 3-4 W.",
+     "The QC3 battery current cap now starts at 4 A and only steps down when a weak adapter cuts out.",
+     "From this release the OTA also updates boot and vbmeta (stock Lenovo boot with the patched kernel). If you use Magisk, choose Install to Inactive Slot (After OTA) in Magisk before rebooting."
+    ],
+    "ko": [
+     "QC3(9 V) \ucda9\uc804\uc744 \uace0\ucce4\uc2b5\ub2c8\ub2e4. \ucc28\uc9c0 \ud38c\ud504 \uc628\ub3c4\ub97c \ub2e4\ub978 ADC \uacc4\uc0b0\uc2dd\uc73c\ub85c \uc77d\uc5b4 \uc57d 136 \u00b0C\ub85c \ud45c\uc2dc\ub418\uba74\uc11c \uacfc\uc5f4\ub85c \ud310\ub2e8\ud574 3~4 W\ub85c \ub5a8\uc5b4\uc9c0\ub358 \ubb38\uc81c\uc785\ub2c8\ub2e4. \uc774\uc81c QC3 \ucda9\uc804\uae30\uc5d0\uc11c \ubc30\ud130\ub9ac\uc5d0 \uc57d 3.2 A(13 W)\uac00 \ub4e4\uc5b4\uac11\ub2c8\ub2e4.",
+     "QC3 \ubc30\ud130\ub9ac \uc804\ub958 \uc81c\ud55c\uc744 4 A\uc5d0\uc11c \uc2dc\uc791\ud558\uace0, \ucda9\uc804\uae30\uac00 \ubc84\ud2f0\uc9c0 \ubabb\ud574 \ub04a\uae38 \ub54c\ub9cc \ub2e8\uacc4\uc801\uc73c\ub85c \ub0ae\ucda5\ub2c8\ub2e4.",
+     "\uc774\ubc88 \ubc84\uc804\ubd80\ud130 OTA\uac00 boot\uc640 vbmeta\ub3c4 \ud568\uaed8 \uc5c5\ub370\uc774\ud2b8\ud569\ub2c8\ub2e4(\ub808\ub178\ubc84 \uc6d0\ubcf8 boot + \ud328\uce58 \ucee4\ub110). Magisk\ub97c \uc4f0\ub294 \uacbd\uc6b0 \uc7ac\ubd80\ud305 \uc804\uc5d0 Magisk\uc5d0\uc11c '\ube44\ud65c\uc131 \uc2ac\ub86f\uc5d0 \uc124\uce58(OTA \ud6c4)'\ub97c \uc120\ud0dd\ud558\uc138\uc694."
+    ]
+   }
+  }
+ ]
+}
