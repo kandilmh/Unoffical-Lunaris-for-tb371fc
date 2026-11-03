@@ -114,6 +114,8 @@ fastboot reboot
 
 소스에는 서명 키가 없어, 직접 빌드한 이미지는 이 릴리스의 업데이트로 사용할 수 없습니다.
 
+빠른 소통을 원한다면 https://m.dcinside.com/board/andtabcus/22927이쪽으로 연락주면 어지간하면 하루 이내로 답장 가능합니다
+
 ## 크레딧
 
 - Lunaris AOSP 팀: 시스템
