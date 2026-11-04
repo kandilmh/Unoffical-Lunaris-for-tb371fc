@@ -3,9 +3,9 @@
   {
    "filename": "lunaris-tb371fc-2.2.3-to-2.3.zip",
    "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v2.3/lunaris-tb371fc-2.2.3-to-2.3.zip",
-   "timestamp": 1793833381,
-   "sha256": "0bc7132b64cd110bf4e71428934dc53f14a06806a3cc96b259ea5e72a8e94d64",
-   "size": 58069047,
+   "timestamp": 1793834777,
+   "sha256": "101ecb6bce50f7057ad14ed0ef9e53d2bd0dbb13057e93c643d9a35bf9bb4981",
+   "size": 58066899,
    "version": "2.3",
    "os_sdk_level": 36,
    "os_patch_level": "2026-09-01",
@@ -17,6 +17,8 @@
     "en": [
      "Fixed the Precision Pen 3 rear charging loop: the pen kept re-detecting every half second, did not charge, heated the tablet and made the Lenovo pen popup flicker. The charging driver was waiting 128 ms instead of 500 ms for the pen to settle, so all of its timers now use the stock Lenovo timing.",
      "A pen attach state that changes for less than a moment no longer reaches the pen settings and keyboard.",
+     "Touch: the touch watchdog no longer sends a command to the touch controller every second when the screen is left idle for more than 5 minutes. It now waits up to 5 minutes between commands as intended.",
+     "Charging: removed the repeated \"charge_disable -22\" kernel error that was logged about every 8 seconds.",
      "Update notifications: Settings > System > System update > Update notifications lets you choose automatic install, notify only or off.",
      "The update page shows what changes before you install, and what changed in the installed version afterwards, with a link to the GitHub release.",
      "Update history: Settings > System > System update > Update history lists the changes of every Lunaris release.",
@@ -25,6 +27,8 @@
     "ko": [
      "Precision Pen 3 \ud6c4\uba74 \ucda9\uc804\uc774 \ubc18\ubcf5\ub418\ub358 \ubb38\uc81c\ub97c \uace0\ucce4\uc2b5\ub2c8\ub2e4. \ud39c\uc744 0.5\ucd08\ub9c8\ub2e4 \ub2e4\uc2dc \uc778\uc2dd\ud558\uba74\uc11c \ucda9\uc804\uc774 \ub418\uc9c0 \uc54a\uace0, \ud0dc\ube14\ub9bf\uc774 \ub728\uac70\uc6cc\uc9c0\uace0, \ub808\ub178\ubc84 \ud39c \ud31d\uc5c5\uc774 \uacc4\uc18d \uae5c\ube61\uc774\ub358 \ubb38\uc81c\uc785\ub2c8\ub2e4. \ucda9\uc804 \ub4dc\ub77c\uc774\ubc84\uac00 \ud39c\uc774 \uc790\ub9ac\uc7a1\uae30\ub97c 500 ms \uae30\ub2e4\ub824\uc57c \ud558\ub294\ub370 128 ms\ub9cc \uae30\ub2e4\ub9ac\uace0 \uc788\uc5c8\uace0, \uc774\uc81c \ubaa8\ub4e0 \ud0c0\uc774\uba38\uac00 \ub808\ub178\ubc84 \uc6d0\ubcf8\uacfc \uac19\uc740 \uc2dc\uac04\uc744 \uc501\ub2c8\ub2e4.",
      "\ud39c \ubd80\ucc29 \uc0c1\ud0dc\uac00 \uc544\uc8fc \uc9e7\uac8c \ubc14\ub00c\ub294 \uacbd\uc6b0 \ud39c \uc124\uc815\uacfc \ud0a4\ubcf4\ub4dc\uc5d0 \uc804\ub2ec\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.",
+     "\ud130\uce58: \ud654\uba74\uc744 5\ubd84 \ub118\uac8c \uadf8\ub300\ub85c \ub450\uba74 \ud130\uce58 \uac10\uc2dc \uae30\ub2a5\uc774 1\ucd08\ub9c8\ub2e4 \ud130\uce58 \ucee8\ud2b8\ub864\ub7ec\uc5d0 \uba85\ub839\uc744 \ubcf4\ub0b4\ub358 \ubb38\uc81c\ub97c \uace0\ucce4\uc2b5\ub2c8\ub2e4. \uc774\uc81c \uc6d0\ub798 \uc758\ub3c4\ub300\ub85c \ucd5c\ub300 5\ubd84 \uac04\uaca9\uc73c\ub85c \ubcf4\ub0c5\ub2c8\ub2e4.",
+     "\ucda9\uc804: \uc57d 8\ucd08\ub9c8\ub2e4 \ucee4\ub110 \ub85c\uadf8\uc5d0 \ub0a8\ub358 \"charge_disable -22\" \uc624\ub958\ub97c \uc5c6\uc574\uc2b5\ub2c8\ub2e4.",
      "\uc5c5\ub370\uc774\ud2b8 \uc54c\ub9bc\uc744 \ucd94\uac00\ud588\uc2b5\ub2c8\ub2e4. \uc124\uc815 > \uc2dc\uc2a4\ud15c > \uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8 > \uc5c5\ub370\uc774\ud2b8 \uc54c\ub9bc\uc5d0\uc11c \uc790\ub3d9 \uc124\uce58, \uc54c\ub9bc\ub9cc, \ub044\uae30\ub97c \uace0\ub97c \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
      "\uc5c5\ub370\uc774\ud2b8 \ud654\uba74\uc5d0\uc11c \uc124\uce58 \uc804\uc5d0\ub294 \ubc14\ub014 \ub0b4\uc6a9\uc744, \uc124\uce58 \ud6c4\uc5d0\ub294 \ud604\uc7ac \ubc84\uc804\uc5d0\uc11c \ubc14\ub010 \ub0b4\uc6a9\uc744 GitHub \ub9b4\ub9ac\uc2a4 \ub9c1\ud06c\uc640 \ud568\uaed8 \ubcf4\uc5ec\uc90d\ub2c8\ub2e4.",
      "\uc5c5\ub370\uc774\ud2b8 \ub0b4\uc5ed\uc744 \ucd94\uac00\ud588\uc2b5\ub2c8\ub2e4. \uc124\uc815 > \uc2dc\uc2a4\ud15c > \uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8 > \uc5c5\ub370\uc774\ud2b8 \ub0b4\uc5ed\uc5d0\uc11c \ubaa8\ub4e0 Lunaris \ubc84\uc804\uc758 \ubcc0\uacbd \uc0ac\ud56d\uc744 \ubcfc \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
