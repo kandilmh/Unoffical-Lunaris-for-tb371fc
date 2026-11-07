@@ -1,1 +1,40 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-3.0.2-to-3.0.3.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v3.0.3/lunaris-tb371fc-3.0.2-to-3.0.3.zip",
+   "timestamp": 1794044317,
+   "sha256": "5c5fe5dc23fe6b4460ae3657662339257978dbd164482011aae9ae592ca2d13d",
+   "size": 183744370,
+   "version": "3.0.3",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-10-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Setup wizard and system language now default to Korean, with Korean at the top of the language list.",
+     "Restored the pen menu in Settings.",
+     "Translated many remaining English strings in Settings, System UI, the launcher, the update app and Knock Lock into Korean.",
+     "Fixed video wallpapers: MP4 videos did not play (GIF and WebP were not affected).",
+     "System update now opens in the right pane of Settings instead of a new window.",
+     "Knock Lock previews now follow the screen orientation, so landscape previews look right.",
+     "Fixed the pressed highlight of the Settings home list being slightly offset.",
+     "On Magisk-rooted tablets, Restart now in system update keeps root on the new system automatically (Magisk asks for root permission once)."
+    ],
+    "ko": [
+     "\ucd08\uae30 \uc124\uc815\uacfc \uc2dc\uc2a4\ud15c \uc5b8\uc5b4\uac00 \ud55c\uad6d\uc5b4\ub97c \uae30\ubcf8\uc73c\ub85c \uc0ac\uc6a9\ud558\uba70, \uc5b8\uc5b4 \ubaa9\ub85d\uc5d0\uc11c \ud55c\uad6d\uc5b4\uac00 \ub9e8 \uc704\uc5d0 \ud45c\uc2dc\ub429\ub2c8\ub2e4.",
+     "\uc124\uc815\uc758 \ud39c \uba54\ub274\ub97c \ubcf5\uad6c\ud588\uc2b5\ub2c8\ub2e4.",
+     "\uc124\uc815, \uc2dc\uc2a4\ud15c UI, \ub7f0\ucc98, \uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8, Knock Lock\uc5d0 \ub0a8\uc544 \uc788\ub358 \uc601\uc5b4 \ubb38\uad6c\ub97c \ud55c\uad6d\uc5b4\ub85c \ubc14\uafe8\uc2b5\ub2c8\ub2e4.",
+     "MP4 \ub3d9\uc601\uc0c1 \ubc30\uacbd\ud654\uba74\uc774 \uc7ac\uc0dd\ub418\uc9c0 \uc54a\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4(GIF\u00b7WebP\ub294 \uc601\ud5a5 \uc5c6\uc74c).",
+     "\uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8\uac00 \uc0c8 \ucc3d \ub300\uc2e0 \uc124\uc815\uc758 \uc624\ub978\ucabd \ud654\uba74\uc5d0\uc11c \uc5f4\ub9bd\ub2c8\ub2e4.",
+     "Knock Lock \ubbf8\ub9ac\ubcf4\uae30\uac00 \ud654\uba74 \ubc29\ud5a5\uc744 \ub530\ub974\ubbc0\ub85c \uac00\ub85c \ud654\uba74\uc5d0\uc11c\ub3c4 \uc790\uc5f0\uc2a4\ub7fd\uac8c \ubcf4\uc785\ub2c8\ub2e4.",
+     "\uc124\uc815 \ud648 \ubaa9\ub85d\uc744 \ub204\ub97c \ub54c \uac15\uc870 \uc601\uc5ed\uc774 \uc870\uae08 \uc5b4\uae0b\ub098\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4.",
+     "Magisk\ub85c \ub8e8\ud305\ud55c \uae30\uae30\uc5d0\uc11c \uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8\uc758 '\uc9c0\uae08 \uc7ac\uc2dc\uc791'\uc744 \ub204\ub974\uba74 \uc0c8 \uc2dc\uc2a4\ud15c\uc5d0\ub3c4 \ub8e8\ud305\uc774 \uc790\ub3d9\uc73c\ub85c \uc720\uc9c0\ub429\ub2c8\ub2e4(\ucc98\uc74c \ud55c \ubc88 Magisk \uad8c\ud55c \uc694\uccad)."
+    ]
+   }
+  }
+ ]
+}
