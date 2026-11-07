@@ -1,0 +1,28 @@
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-3.0-to-3.0.1.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v3.0.1/lunaris-tb371fc-3.0-to-3.0.1.zip",
+   "timestamp": 1794023944,
+   "sha256": "7451ca95d5519e05c4b02857c559aeddc95c0c5160ba8dd888eb2721732a7a73",
+   "size": 17213008,
+   "version": "3.0.1",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-10-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "First OTA of the 3.x line. No feature changes: this release checks that system updates install on 3.0.",
+     "This OTA also updates boot and vbmeta. If you use Magisk, choose Install to Inactive Slot (After OTA) in Magisk before rebooting."
+    ],
+    "ko": [
+     "3.x \ub77c\uc778\uc758 \uccab OTA\uc785\ub2c8\ub2e4. \uae30\ub2a5 \ubcc0\uacbd \uc5c6\uc774 3.0\uc5d0\uc11c \uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8\uac00 \uc124\uce58\ub418\ub294\uc9c0 \ud655\uc778\ud558\ub294 \ubc84\uc804\uc785\ub2c8\ub2e4.",
+     "\uc774\ubc88 OTA\ub3c4 boot\uc640 vbmeta\ub97c \ud568\uaed8 \uc5c5\ub370\uc774\ud2b8\ud569\ub2c8\ub2e4. Magisk\ub97c \uc4f0\ub294 \uacbd\uc6b0 \uc7ac\ubd80\ud305 \uc804\uc5d0 Magisk\uc5d0\uc11c '\ube44\ud65c\uc131 \uc2ac\ub86f\uc5d0 \uc124\uce58(OTA \ud6c4)'\ub97c \uc120\ud0dd\ud558\uc138\uc694."
+    ]
+   }
+  }
+ ]
+}
