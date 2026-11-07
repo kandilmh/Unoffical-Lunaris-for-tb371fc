@@ -1,1 +1,30 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-3.0.1-to-3.0.2.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v3.0.2/lunaris-tb371fc-3.0.1-to-3.0.2.zip",
+   "timestamp": 1794027009,
+   "sha256": "010fd75a593abab14046531232c273aa25969e134d62d3429a9afbe993c91ac5",
+   "size": 57156801,
+   "version": "3.0.2",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-10-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Fixed the system update app closing when Download is tapped.",
+     "Fixed the system update app closing after a local update is imported.",
+     "This OTA also updates boot and vbmeta. If you use Magisk, choose Install to Inactive Slot (After OTA) in Magisk before rebooting."
+    ],
+    "ko": [
+     "\uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8\uc5d0\uc11c \ub2e4\uc6b4\ub85c\ub4dc\ub97c \ub204\ub974\uba74 \uc571\uc774 \uc885\ub8cc\ub418\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4.",
+     "\ub85c\uceec \uc5c5\ub370\uc774\ud2b8\ub97c \uac00\uc838\uc628 \ub4a4 \uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8 \uc571\uc774 \uc885\ub8cc\ub418\ub358 \ubb38\uc81c\ub97c \uc218\uc815\ud588\uc2b5\ub2c8\ub2e4.",
+     "\uc774\ubc88 OTA\ub3c4 boot\uc640 vbmeta\ub97c \ud568\uaed8 \uc5c5\ub370\uc774\ud2b8\ud569\ub2c8\ub2e4. Magisk\ub97c \uc4f0\ub294 \uacbd\uc6b0 \uc7ac\ubd80\ud305 \uc804\uc5d0 Magisk\uc5d0\uc11c '\ube44\ud65c\uc131 \uc2ac\ub86f\uc5d0 \uc124\uce58(OTA \ud6c4)'\ub97c \uc120\ud0dd\ud558\uc138\uc694."
+    ]
+   }
+  }
+ ]
+}
