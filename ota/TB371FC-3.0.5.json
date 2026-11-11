@@ -1,1 +1,28 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-3.0.5-to-3.0.6.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v3.0.6/lunaris-tb371fc-3.0.5-to-3.0.6.zip",
+   "timestamp": 1794436369,
+   "sha256": "a56b154b9b2f5123c4a6441781953e67dbeae67a33bd420ca6329dfa148dd648",
+   "size": 19516158,
+   "version": "3.0.6",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-10-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "The system update screen follows the new Lunaris 3.13 design: a large title, a card with the installed version and device, build date and security update, an update card with a full-width check button and a status card.",
+     "Update settings (notifications, history, check interval, local install) are shown as tiles below the update cards."
+    ],
+    "ko": [
+     "\uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8 \ud654\uba74\uc744 Lunaris 3.13\uc758 \uc0c8 \ub514\uc790\uc778\uc5d0 \ub9de\ucdc4\uc2b5\ub2c8\ub2e4. \ud070 \uc81c\ubaa9, \uc124\uce58\ub41c \ubc84\uc804\uacfc \uae30\uae30 \uce74\ub4dc, \ube4c\ub4dc \ub0a0\uc9dc\uc640 \ubcf4\uc548 \uc5c5\ub370\uc774\ud2b8, \ub113\uc740 \ud655\uc778 \ubc84\ud2bc\uc774 \uc788\ub294 \uc5c5\ub370\uc774\ud2b8 \uce74\ub4dc\uc640 \uc0c1\ud0dc \uce74\ub4dc\ub85c \uad6c\uc131\ub429\ub2c8\ub2e4.",
+     "\uc5c5\ub370\uc774\ud2b8 \uc124\uc815(\uc54c\ub9bc, \ub0b4\uc5ed, \ud655\uc778 \uc8fc\uae30, \ub85c\uceec \uc124\uce58)\uc740 \uc5c5\ub370\uc774\ud2b8 \uce74\ub4dc \uc544\ub798 \ud0c0\uc77c\ub85c \ud45c\uc2dc\ub429\ub2c8\ub2e4."
+    ]
+   }
+  }
+ ]
+}
