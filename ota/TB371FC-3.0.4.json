@@ -1,1 +1,28 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-3.0.4-to-3.0.5.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v3.0.5/lunaris-tb371fc-3.0.4-to-3.0.5.zip",
+   "timestamp": 1794433410,
+   "sha256": "5955b90e3e15fd57d6b4675e7808a0e91148ad9e00614bbaba91042e49b31464",
+   "size": 58768311,
+   "version": "3.0.5",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-10-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Root (Magisk) is now kept as soon as an update finishes installing, so it stays after a restart from the notification or the power menu too.",
+     "The update screen's restart button finds su in every location Magisk uses and, if root can't be kept, says so instead of restarting without root."
+    ],
+    "ko": [
+     "\uc5c5\ub370\uc774\ud2b8 \uc124\uce58\uac00 \ub05d\ub098\ub294 \uc989\uc2dc \ub8e8\ud305(Magisk)\uc744 \uc0c8 \uc2dc\uc2a4\ud15c\uc5d0 \uc720\uc9c0\ud558\ubbc0\ub85c, \uc54c\ub9bc\uc774\ub098 \uc804\uc6d0 \uba54\ub274\ub85c \uc7ac\uc2dc\uc791\ud574\ub3c4 \ub8e8\ud305\uc774 \uc720\uc9c0\ub429\ub2c8\ub2e4.",
+     "\uc5c5\ub370\uc774\ud2b8 \ud654\uba74\uc758 \uc7ac\uc2dc\uc791 \ubc84\ud2bc\uc774 Magisk\uac00 \uc0ac\uc6a9\ud558\ub294 \ubaa8\ub4e0 \uc704\uce58\uc5d0\uc11c su\ub97c \ucc3e\uace0, \ub8e8\ud305\uc744 \uc720\uc9c0\ud558\uc9c0 \ubabb\ud558\uba74 \ub8e8\ud305 \uc5c6\uc774 \uc7ac\uc2dc\uc791\ud558\uc9c0 \uc54a\uace0 \uc2e4\ud328\ub97c \uc54c\ub9bd\ub2c8\ub2e4."
+    ]
+   }
+  }
+ ]
+}
