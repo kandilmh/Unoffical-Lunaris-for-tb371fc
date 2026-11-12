@@ -1,1 +1,34 @@
-{"response": []}
+{
+ "response": [
+  {
+   "filename": "lunaris-tb371fc-3.0.6-to-3.1.zip",
+   "download": "https://github.com/kandilmh/Unoffical-Lunaris-for-tb371fc/releases/download/v3.1/lunaris-tb371fc-3.0.6-to-3.1.zip",
+   "timestamp": 1794451575,
+   "sha256": "5b663b815dfbbe9f99fa93ab64a664a855f928cacb4d7d6a784c7d9ee64ca1da",
+   "size": 19613016,
+   "version": "3.1",
+   "os_sdk_level": 36,
+   "os_patch_level": "2026-10-01",
+   "buildtype": "UNOFFICIAL",
+   "maintainer": "kandilmh",
+   "oem": "Lenovo",
+   "device": "TB371FC",
+   "changelog": {
+    "en": [
+     "Rooted devices: keeping Magisk after an update works again. The update screen could not reach Magisk (\"Cannot connect to daemon: Permission denied\"); the boot patch now runs through Lenovo features. Allow Lenovo features once in the Magisk app's Superuser tab (Magisk 31 no longer asks).",
+     "Charging: the stop at 50 \u00b0C battery temperature is now held until the battery cools down. A periodic re-apply of the charging mode could release it within 5 minutes.",
+     "Touch: the charger mode command now waits until the touch IC has taken it, so it can no longer be overwritten right after the screen turns on. The idle watchdog no longer resends it every few seconds.",
+     "Touch: finger pressure is reported on a 0\u20131 scale (was up to 255).",
+     "Kernel hardening: /proc/NVTSPI length check, touch diagnostic nodes return to normal mode on failure, charger and keyboard NULL checks, and the boot-time kernel warnings (extcon list, power supply attribute permissions, SoundWire wake IRQ) are gone."
+    ],
+    "ko": [
+     "\ub8e8\ud305\ud55c \uae30\uae30\uc5d0\uc11c \uc5c5\ub370\uc774\ud2b8 \ud6c4 Magisk \uc720\uc9c0\uac00 \ub2e4\uc2dc \ub3d9\uc791\ud569\ub2c8\ub2e4. \uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8 \ud654\uba74\uc774 Magisk\uc5d0 \uc5f0\uacb0\ud558\uc9c0 \ubabb\ud558\ub358 \ubb38\uc81c('Cannot connect to daemon: Permission denied')\ub97c \uc218\uc815\ud588\uc73c\uba70, \uc774\uc81c boot \ud328\uce58\ub294 'Lenovo \uae30\ub2a5' \uc571\uc774 \uc2e4\ud589\ud569\ub2c8\ub2e4. Magisk \uc571\uc758 \uc288\ud37c\uc720\uc800 \ud0ed\uc5d0\uc11c 'Lenovo \uae30\ub2a5'\uc744 \ud55c \ubc88 \ud5c8\uc6a9\ud574\uc57c \ud569\ub2c8\ub2e4(Magisk 31\ubd80\ud130\ub294 \ud5c8\uc6a9 \ucc3d\uc774 \ub728\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4).",
+     "\ucda9\uc804: \ubc30\ud130\ub9ac 50 \u00b0C\uc5d0\uc11c \uac78\ub9ac\ub294 \ucda9\uc804 \ucc28\ub2e8\uc774 \ubc30\ud130\ub9ac\uac00 \uc2dd\uc744 \ub54c\uae4c\uc9c0 \uc720\uc9c0\ub429\ub2c8\ub2e4. \ucda9\uc804 \ubaa8\ub4dc\ub97c \uc8fc\uae30\uc801\uc73c\ub85c \ub2e4\uc2dc \uc801\uc6a9\ud558\ub294 \ub3d9\uc791\uc774 \uc774 \ucc28\ub2e8\uc744 5\ubd84 \uc548\uc5d0 \ud574\uc81c\ud560 \uc218 \uc788\uc5c8\uc2b5\ub2c8\ub2e4.",
+     "\ud130\uce58: \ucda9\uc804\uae30 \ubaa8\ub4dc \uba85\ub839\uc744 \ud130\uce58 IC\uac00 \ubc1b\uc544\ub4e4\uc77c \ub54c\uae4c\uc9c0 \uae30\ub2e4\ub9bd\ub2c8\ub2e4. \ud654\uba74\uc744 \ucf20 \uc9c1\ud6c4 \ub2e4\ub978 \uba85\ub839\uc5d0 \ub36e\uc5ec \uc0ac\ub77c\uc9c8 \uc218 \uc788\ub358 \ubb38\uc81c\ub97c \ub9c9\uc558\uc73c\uba70, \ub300\uae30 \uc911 \uba87 \ucd08\ub9c8\ub2e4 \uc774 \uba85\ub839\uc744 \ub2e4\uc2dc \ubcf4\ub0b4\ub358 \ub3d9\uc791\uc744 \uaed0\uc2b5\ub2c8\ub2e4.",
+     "\ud130\uce58: \uc190\uac00\ub77d \uc555\ub825 \uac12\uc774 0~1 \ubc94\uc704\ub85c \uc804\ub2ec\ub429\ub2c8\ub2e4(\uae30\uc874 \ucd5c\ub300 255).",
+     "\ucee4\ub110 \ubcf4\uac15: /proc/NVTSPI \uae38\uc774 \uac80\uc0ac, \ud130\uce58 \uc9c4\ub2e8 \ub178\ub4dc \uc2e4\ud328 \uc2dc \uc77c\ubc18 \ubaa8\ub4dc \ubcf5\uadc0, \ucda9\uc804\u00b7\ud0a4\ubcf4\ub4dc NULL \uac80\uc0ac, \ubd80\ud305 \uc911 \ucee4\ub110 \uacbd\uace0(extcon \ub9ac\uc2a4\ud2b8, \uc804\uc6d0 \uc18d\uc131 \uad8c\ud55c, SoundWire wake IRQ) \uc81c\uac70."
+    ]
+   }
+  }
+ ]
+}
