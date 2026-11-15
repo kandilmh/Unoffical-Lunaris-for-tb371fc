@@ -3,7 +3,7 @@
 - **Lunaris 3.13 버젼 pre release로 나와있습니다 아직 가져오지 못한 기능들도 있고 안되는 기능들도 있습니다 패치 할지 말 지는 본인 선택입니다 
 
 
-
+## 현재 부트로더 잠금 상태로 EDL플래싱 하는 버젼을 빌드 중 입니다 [리락](https://github.com/kandilmh/TB371fc-relock) 을 참조해서 락하고 playintegrity랑 widevine L1 검증중에 있습니다
 
 
 TB371fc용 롬이며 대부분의 기능들은 정상작동 합니다. 혹시 안되거나 하는거 있으면 알려주세요.
